@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyPage</title>
+    <link rel="stylesheet" href="MyPage.css">
+</head>
+<body>
+<!-- 导航条 -->
+    <header class="nav">
+      <span class="nav-left">
+        <a href="#"><img src="img/AFB.PNG" alt="Back to MyPage" width="100px" height="100px"></a>
+      </span>
+      <span class="nav-right">
+        <ul id="menu">
+          <li><a href="#my-info">个人介绍</a></li>
+          <li><a href="#my-page">作品展示</a></li>
+          <li><a href="#my-contract">联系方式</a></li>
+        </ul>
+      </span>
+    </header>
+    <!--页面的主体，包含自我介绍/作品展示/联系方式/页脚-->
+    <main>
+    <!-- 个人介绍 -->
+      <header id="my-info" name="my_info">
+        <blockquote class="my-des"> 
+          <p>出生于2015年10月13日,一直生活在百果园门口的花坛里，一岁左右被主人收养。胆小，傲娇，每天主人回家时听见主人脚步声就跑到门口喵喵叫，主人一开门就开始在地上打滚求摸摸。
+          </p>
+          <footer style="text-align:right;">--萌萌的小斑</footer>
+        </blockquote>
+        <span class="my-photo"><img src="img/cat.jpg" alt="my_photograph" width="100%" height="100%"></span>
+      </header>
+      <!--作品介绍  -->
+      <section id="my-page" name="my_page">
+        <h2>生活照</h2>
+        <hr class="live-photo">
+        <div>
+          <ul class="photo-list">
+            <li><img src="img/IMG_0830.jpg" alt="page1"></li>
+            <li><img src="img/IMG_0831.jpg" alt="page2"></li>
+            <li><img src="img/IMG_0832.jpg" alt="page3"></li>
+            <li><img src="img/IMG_0833.jpg" alt="page4"></li>
+            <li><img src="img/IMG_0837.jpg" alt="page5"></li>
+            <li><img src="img/IMG_0839.jpg" alt="page6"></li>
+          </ul>
+        </div>
+      </section>
+      <!-- 联系方式 -->
+      <section id="my-contract" name="my_contract">
+        <h2>联系我</h2>
+        <hr class="live-photo">
+        <div class="contract">
+          <form action="contract" class="contract-form">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Phone Number">
+            <input type="text" placeholder="Message">
+            <button>Send</button>
+          </form>
+          <div class="contract-text"> 
+            <span>
+              <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+              <p>I promise to reply A.S.A.P.</p>
+              <p>Note: No spam/soliciting pour moi, merci :)</p>
+            </span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+      <!-- 页脚 -->
+      <footer>
+        <div class="footabove">
+          <div>
+            <h3>ABOUT THIS PAGE</h3>
+            <p>Made with HTML and CSS<br>by <strong>Zhiwei Liu</strong></p>
+          </div>
+          <div>
+            <h3>AROUND THE WEB</h3>
+            <ul>
+              <li><a href=""><img src="img/linkedin.png" alt=""></a></li>
+              <li><a href=""><img src="img/linkedin.png" alt=""></a></li>
+              <li><a href=""><img src="img/linkedin.png" alt=""></a></li>
+              <li><a href=""><img src="img/linkedin.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footbottom"></div>
+      </footer>
+</body>
+</html>
